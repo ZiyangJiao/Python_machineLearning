@@ -1,0 +1,10 @@
+importance = clf.feature_importances_ # clf is the model
+sorted_idx = np.argsort(importance)[::-1]
+# for index in sorted_idx:
+#    print([poly.get_feature_names()[index], importance[index]])
+
+from xgboost import plot_importance
+from matplotlib import pyplot
+
+plot_importance(clf)
+pyplot.show()
