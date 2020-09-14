@@ -1,0 +1,7 @@
+This is your grade report from the Autograder ran on 2020-03-27 15:20:32. 
+For this project we ran 2 evaluation(s) on your committed code. On the kernel_eval evaluation you scored 65 points with our tests. You scored 0 points in the competition because of an error:
+Traceback (most recent call last):
+  File "/Users/yichenhao/Desktop/Spring 2020/CSE 517/Resources/cse517a/server/autograder/grading_temp/project3/jiaoziyang/kernel_eval.py", line 26, in kernel_eval
+    best_parameters = pickle.load(open('best_parameters.pickle', 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'best_parameters.pickle'
+On the l2dist_eval evaluation you scored 5 points with our tests. Your implementation for l2dist_eval was competitive! You scored 5 points based on the efficiency or quality of your code. For this project, you scored a total of 75 points.
